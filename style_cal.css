@@ -1,0 +1,40 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+ 
+}
+
+body{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   
+}
+
+
+/*history style start*/
+
+.history-container {
+   background-color: #64ACAB;
+  margin-top: 1rem;
+margin-left: 80px;
+  height: 200px;
+  width: 120px;
+  color: #1D3849;
+ 
+}
+
+
+
+ol {
+    overflow: auto;
+    height: 100px;
+}
+
+li {
+    
+    margin: 5px 0px;
+    padding: 3px;
+    font-weight: bolder;
+}
